@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/SonarSource/sonar-go.svg?branch=master)](https://travis-ci.org/SonarSource/sonar-go)
 [![Quality gate](https://next.sonarqube.com/sonarqube/api/project_badges/measure?project=org.sonarsource.go%3Asonar-go&metric=alert_status)](https://next.sonarqube.com/sonarqube/dashboard?id=org.sonarsource.go%3Asonar-go)
-[![Coverage](https://next.sonarqube.com/sonarqube/api/project_badges/measure?project=org.sonarsource.go%3Asonar-go&metric=coverage)](https://next.sonarqube.com/sonarqube/component_measures?id=org.sonarsource.go%3Asonar-go&metric=coverage) 
+[![Coverage](https://next.sonarqube.com/sonarqube/api/project_badges/measure?project=org.sonarsource.go%3Asonar-go&metric=coverage)](https://next.sonarqube.com/sonarqube/component_measures?id=org.sonarsource.go%3Asonar-go&metric=coverage) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNerzal%2Fsonar-go.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FNerzal%2Fsonar-go?ref=badge_shield)
+
 
 SonarGo is a SonarQube code analyzer for the Go language. 
 
@@ -61,6 +62,9 @@ The license plugins doesn't work for Go files. At the moment we create/edit them
 When doing so, make sure to add a blank line after the license header, otherwise `go doc`
 will treat it as documentation string. To verify that no unintended documentation was added,
 run `go doc` inside uast-generator-go.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNerzal%2Fsonar-go.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FNerzal%2Fsonar-go?ref=badge_large)
 
 ## License
 
